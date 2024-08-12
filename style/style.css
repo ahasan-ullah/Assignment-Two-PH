@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -8,18 +9,49 @@
     "slnt" 0;
 }
 
+.miama-font{
+  font-family: 'Miama', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+/* Global */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  background: black;
+}
+
+.container{
+  width: 75%;
+  margin: 100px 0 100px;
+}
+
+.btn{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 16px 40px 16px 40px;
+  border-radius: 2.5rem;
+  border: none;
+}
+
+/* header */
+
 .header{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180deg,rgb(41, 40, 40), rgb(29, 28, 28),rgba(119, 119, 119, 0) 100%);
   width: 100%;
   height: 715px;
 }
 
+/* navbar */
 .navbar{
   width: 75%;
   display: flex;
@@ -65,3 +97,129 @@
   border-radius: 3rem;
   background: rgb(230, 83, 60);
 }
+
+/* banner */
+.banner{
+  width: 75%;
+  margin: 2.9rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.banner-content h1{
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.shape{
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+  font-weight: 400;
+}
+
+.banner-content p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-top: 1.6rem;
+}
+
+.banner-btns{
+  margin-top: 28px;
+}
+
+.banner-btn-1{
+  background: rgb(230, 83, 60);
+  margin-right: 14px;
+  border: 1px solid rgb(230, 83, 60);
+}
+
+.banner-btn-2{
+  background: transparent;
+  border: 1px solid white;
+}
+
+.banner-img{
+  width: 35%;
+  position: relative;
+}
+
+.floating-icon-1, .floating-icon-2{
+  border: none;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.floating-icon-1, .floating-icon-2{
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-icon-1{
+  left: 250px;
+  top: 90px;
+  width: 193px;
+  height: 98px;
+  flex-direction: column;
+}
+
+.floating-icon-1 h1, .floating-icon-2 h1{
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+
+.floating-icon-1 h1{
+  font-size: 2.5rem;
+}
+
+.floating-icon-1 p, .floating-icon-2 p{
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: 400;
+}
+
+.floating-icon-1 p{
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.floating-icon-2{
+  top: 430px;
+  left: -130px;
+}
+
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+  margin-right: 8px;
+}
+
+.floating-icon-2 h1{
+  font-size: 1.5rem;
+}
+
+.floating-icon-2 p{
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+
+/* habit section */
+/* .habit-section{
+  height: 300px;
+} */
