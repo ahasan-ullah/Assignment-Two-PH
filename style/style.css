@@ -31,7 +31,7 @@ body{
 
 .container{
   width: 75%;
-  margin: 100px 0 100px;
+  margin: 100px auto 0;
 }
 
 .btn{
@@ -41,6 +41,17 @@ body{
   padding: 16px 40px 16px 40px;
   border-radius: 2.5rem;
   border: none;
+}
+
+p{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  text-align: center;
 }
 
 /* header */
@@ -114,9 +125,7 @@ body{
 }
 
 .banner-content h1{
-  color: rgb(255, 255, 255);
   font-size: 5rem;
-  font-weight: 900;
 }
 
 .shape{
@@ -126,7 +135,6 @@ body{
 }
 
 .banner-content p{
-  color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -177,11 +185,6 @@ body{
   flex-direction: column;
 }
 
-.floating-icon-1 h1, .floating-icon-2 h1{
-  color: rgb(255, 255, 255);
-  font-weight: 900;
-}
-
 .floating-icon-1 h1{
   font-size: 2.5rem;
 }
@@ -220,6 +223,48 @@ body{
 
 
 /* habit section */
-/* .habit-section{
-  height: 300px;
-} */
+.habit-section{
+  height: 450px;
+}
+
+
+.habit-title h1{
+  font-size: 3rem;
+}
+
+.habit-title p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 14px;
+  line-height: 1.5rem;
+}
+
+.habit-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.7rem;
+}
+
+.habit-article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.habit-article-content h1{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.habit-article-content p{
+  font-size: 0.9rem;
+}
+
+.habit-article-img img{
+  border-radius: 50%;
+}
