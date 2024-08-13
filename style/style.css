@@ -60,7 +60,6 @@ h1, h3{
 .header{
   background: linear-gradient(180deg,rgb(41, 40, 40), rgb(29, 28, 28),rgba(119, 119, 119, 0) 100%);
   width: 100%;
-  height: 715px;
 }
 
 /* navbar */
@@ -170,9 +169,6 @@ h1, h3{
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
-}
-
-.floating-icon-1, .floating-icon-2{
   position: absolute;
   padding: 20px;
   display: flex;
@@ -434,8 +430,9 @@ select{
 }
 
 #factor{
-  width: 590px;
+  width: 100%;
   margin-top: 12px;
+  display: block;
 }
 
 .calculate-btn{
@@ -549,13 +546,218 @@ footer{
   display: none;
 }
 
+.hide{
+  display: none;
+}
+
+hr{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 
 /* responsive */
 @media screen and (max-width: 576px) {
-  .nav-items{
+  .container{
+    width: 90%;
+    margin: 80px auto 0;
+  }
+  .navbar{
+    width: 90%;
+  }
+  .nav-link{
     display: none;
   }
   .hamburger{
     display: block;
+    font-size: 2rem;
+  }
+  .hamburger i{
+    color: white;
+  }
+  .nav-items{
+    border: none;
+  }
+  .banner{
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .banner-content, .banner-img{
+    width: 100%;
+  }
+  .banner-content h1{
+    font-size: 3rem;
+  }
+  .banner-content p{
+    width: 75%;
+  }
+  .btn{
+    padding: 16px 30px 16px 30px;
+  }
+  .banner-btns{
+    display: flex;
+  }
+  .banner-img{
+    margin-top: 4rem;
+  }
+  .floating-icon-1, .floating-icon-2{
+    border-radius: 9px;
+    padding: 12px;
+  } 
+  .floating-icon-1{
+    left: 200px;
+    top: 60px;
+    width: 145px;
+    height: 75px;
+  }
+  .floating-icon-1 h1{
+    font-size: 2rem;
+  }
+  .floating-icon-1 p{
+    font-size: 0.5rem;
+    margin-top: 5px;
+  }
+  .floating-icon-2{
+    top: 260px;
+    left: 15px;
+    width: 155px;
+    height: 75px;
+  }
+  .circle{
+    width: 30px;
+    height: 30px;
+  }
+  .play-btn{
+    left: -15px;
+  }
+  .floating-icon-2 h1{
+    font-size: 1rem;
+  }
+  .floating-icon-2 p{
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+  .habit-title h1{
+    font-size: 2rem;
+  }
+  .habit-title p{
+    font-size: 0.8rem;
+  }
+  .habit-content{
+    flex-direction: column;
+  }
+  .habit-article-content{
+    width: 75%;
+  }
+  .habit-article{
+    margin-top: 30px;
+  }
+  .member-info p {
+    font-size: 0.7rem;
+  }
+  .member-info h3{
+    font-size: 1rem;
+  }
+  .run-section{
+    flex-direction: column;
+    gap: 0;
+  }
+  .run-left, .run-right{
+    width: 100%;
+  }
+  .run-left h1{
+    font-size: 2rem;
+  }
+  .run-left p{
+    font-size: 0.8rem;
+    margin-bottom: 24px;
+  }
+  .run-btn, .calculate-btn{
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+  .calculator-heading, .team-heading {
+    width: 90%;
+    margin: 30px auto 40px;
+  }
+  .calculator-heading h1, .team-heading h1{
+    font-size: 2rem;
+  }
+  .calculator-heading p, .team-heading p{
+    font-size: 0.8rem;
+  }
+  .calculator-container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .calculator-table, .calculator-form{
+    width: 100%;
+  }
+  .calculator-table h1{
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .calculator-form h1{
+    font-size: 1rem;
+  }
+  .calculator-form p{
+    font-size: 0.8rem;
+  }
+  .inner-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+  }
+  input, select{
+    padding: 10px 0 10px 5px;
+    gap: 4px;
+    font-size: 0.8rem;
+  }
+  select{
+    color: rgba(255, 255, 255, 0.3);
+    padding: 15px 40px 12px 23px;
+  }
+  #factor{
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+  }
+  .calculate-btn{
+    margin-top: 30px;
+  }
+  .team-heading{
+    margin-top: 3.8rem;
+  }
+  .team-members {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
+  .footer-container{
+    flex-direction: column;
+    padding: 45px 0 40px;
+    row-gap: 3rem;
+  }
+  .footer-logo h3{
+    font-size: 3rem;
+  }
+  .col-1{
+    width: 90%;
+  }
+  .col-1 p{
+    font-size: 0.8rem
+  }
+  .col-2{
+    flex-direction: column;
+    width: 90%;
+    row-gap: 20px;
+  }
+  .col-3 h3{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .col-3 p{
+    font-size: 0.9rem;
+    margin-bottom: 15px;
   }
 }
