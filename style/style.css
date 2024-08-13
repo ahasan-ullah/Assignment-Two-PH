@@ -41,6 +41,7 @@ body{
   padding: 16px 40px 16px 40px;
   border-radius: 2.5rem;
   border: none;
+  background: transparent;
 }
 
 p{
@@ -126,6 +127,9 @@ h1{
 
 .banner-content h1{
   font-size: 5rem;
+  text-align: left;
+  line-height: 80px;
+  margin-top: 40px;
 }
 
 .shape{
@@ -139,11 +143,11 @@ h1{
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
-  margin-top: 1.6rem;
+  margin-top: 30px;
 }
 
 .banner-btns{
-  margin-top: 28px;
+  margin-top:30px;
 }
 
 .banner-btn-1{
@@ -153,7 +157,6 @@ h1{
 }
 
 .banner-btn-2{
-  background: transparent;
   border: 1px solid white;
 }
 
@@ -180,8 +183,8 @@ h1{
 .floating-icon-1{
   left: 250px;
   top: 90px;
-  width: 193px;
-  height: 98px;
+  width: 195px;
+  height: 100px;
   flex-direction: column;
 }
 
@@ -202,6 +205,8 @@ h1{
 .floating-icon-2{
   top: 430px;
   left: -130px;
+  width: 205px;
+  height: 95px;
 }
 
 .circle{
@@ -210,6 +215,15 @@ h1{
   border-radius: 50%;
   background: rgb(230, 83, 60);
   margin-right: 8px;
+}
+
+.play-btn{
+  position: absolute;
+  border-top: 100px solid #fff;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  transform: rotate(-90deg) scale(0.15);
+  left: -1px;
 }
 
 .floating-icon-2 h1{
@@ -223,10 +237,6 @@ h1{
 
 
 /* habit section */
-.habit-section{
-  height: 450px;
-}
-
 
 .habit-title h1{
   font-size: 3rem;
@@ -267,4 +277,68 @@ h1{
 
 .habit-article-img img{
   border-radius: 50%;
+}
+
+/* run section */
+.run-section{
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  padding: 30px;
+  gap: 10.5rem;
+}
+
+.run-left, .run-right{
+  width: 50%;
+}
+
+.run-left{
+  padding: 24px;
+}
+
+.run-left h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  text-align: left;
+}
+
+
+.run-left p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
+
+.run-right img{
+  width: 100%;
+  border-radius: 18px;
+}
+
+.run-btn{
+  margin: 0;
+  padding: 16px 60px;
+}
+
+/* calculator */
+.calculator-heading{
+  width: 50%;
+  margin: 80px auto 90px;
+}
+
+.calculator-heading h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.calculator-heading p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-top: 14px;
 }
