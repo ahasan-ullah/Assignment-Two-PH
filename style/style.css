@@ -430,10 +430,11 @@ input, select{
 
 select{
   color: rgba(255, 255, 255, 0.3);
+  padding: 15px 40px 12px 23px;
 }
 
 #factor{
-  width: 585px;
+  width: 590px;
   margin-top: 12px;
 }
 
@@ -487,4 +488,74 @@ select{
   position: absolute;
   top: 210px;
   left: 20px;
+}
+
+/* footer */
+footer{
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 100px;
+}
+
+.footer-logo h3{
+  font-size: 4.5rem;
+}
+
+.col-1 p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.col-3 h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.col-3 p{
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.col-2{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.col-1{
+  width: 50%;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 65px 0 80px;
+  row-gap: 7rem;
+}
+
+.copy{
+  font-size: 0.9rem;
+  padding: 35px 0;
+}
+
+.hamburger{
+  display: none;
+}
+
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .nav-items{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
 }
