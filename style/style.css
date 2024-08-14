@@ -487,6 +487,51 @@ select{
   left: 20px;
 }
 
+/* membership */
+.membership-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.membership-card{
+  background: rgb(34, 34, 34);
+  width: 30%;
+  height: 550px;
+  border-radius: 18px;
+  padding: 2rem 2rem;
+}
+
+.card-heading h3{
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.card-content>div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 220px;
+}
+
+.card-content p{
+  text-align: left;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.membership-card hr{
+  border: 1px solid rgb(19, 19, 19);
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.card-btn{
+  display: block;
+  margin: 3rem auto;
+}
+
 /* footer */
 footer{
   background: rgba(255, 255, 255, 0.1);
@@ -681,6 +726,9 @@ hr{
     width: 90%;
     margin: 30px auto 40px;
   }
+  .calculator-heading br, .team-heading br, .habit-title p br{
+    content: " ";
+  }
   .calculator-heading h1, .team-heading h1{
     font-size: 2rem;
   }
@@ -732,6 +780,13 @@ hr{
   .team-members {
     grid-template-columns: 1fr;
     row-gap: 25px;
+  }
+  .membership-container{
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .membership-card{
+    width: 100%;
   }
   .footer-container{
     flex-direction: column;
