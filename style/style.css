@@ -426,7 +426,7 @@ input, select{
 
 select{
   color: rgba(255, 255, 255, 0.3);
-  padding: 15px 40px 12px 23px;
+  padding: 10px 40px 12px 15px;
 }
 
 #factor{
@@ -767,8 +767,7 @@ hr{
     font-size: 0.8rem;
   }
   select{
-    color: rgba(255, 255, 255, 0.3);
-    padding: 15px 40px 12px 23px;
+    padding: 10px 40px 12px 10px;
   }
   #factor{
     margin-top: 12px;
