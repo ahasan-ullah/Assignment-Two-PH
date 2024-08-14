@@ -604,7 +604,7 @@ hr{
 @media screen and (max-width: 576px) {
   .container{
     width: 90%;
-    margin: 80px auto 0;
+    margin: 60px auto 0;
   }
   .navbar{
     width: 90%;
@@ -690,6 +690,7 @@ hr{
   }
   .habit-content{
     flex-direction: column;
+    margin-top: 1rem;
   }
   .habit-article-content{
     width: 75%;
@@ -722,9 +723,12 @@ hr{
     display: block;
     width: 100%;
   }
+  .run-btn{
+    margin-bottom: 30px;
+  }
   .calculator-heading, .team-heading {
     width: 90%;
-    margin: 30px auto 40px;
+    margin: 80px auto 0px;
   }
   .calculator-heading br, .team-heading br, .habit-title p br{
     content: " ";
@@ -773,9 +777,6 @@ hr{
   }
   .calculate-btn{
     margin-top: 30px;
-  }
-  .team-heading{
-    margin-top: 3.8rem;
   }
   .team-members {
     grid-template-columns: 1fr;
