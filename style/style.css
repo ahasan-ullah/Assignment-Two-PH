@@ -767,7 +767,7 @@ hr{
     font-size: 0.8rem;
   }
   select{
-    padding: 10px 40px 12px 10px;
+    padding: 10px 40px 12px 0px;
   }
   #factor{
     margin-top: 12px;
