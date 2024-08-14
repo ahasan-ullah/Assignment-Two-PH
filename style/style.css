@@ -790,6 +790,10 @@ hr{
   .membership-card{
     width: 100%;
   }
+  .card-btn{
+    margin: 30px auto 0;
+    width: 100%;
+  }
   .footer-container{
     flex-direction: column;
     padding: 45px 0 40px;
