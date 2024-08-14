@@ -273,6 +273,7 @@ h1, h3{
 
 .habit-article-img img{
   border-radius: 50%;
+  border: 5px solid rgb(34, 34, 34);
 }
 
 /* run section */
@@ -776,6 +777,7 @@ hr{
   }
   .calculate-btn{
     margin-top: 30px;
+    width: 60%;
   }
   .team-members {
     grid-template-columns: 1fr;
